@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+:root {
+  --bg-second-color: #f7f7f7;
+  --light-bg: #24baef;
+  --font-color: #fff;
+  --border-color: #a8a8a83d;
+  --main-color: #20c997;
+  --main-font: "Libre Baskerville", serif;
+  --second-font: "Sour Gummy", sans-serif;
+}
+body {
+  background-color: var(--bg-second-color);
+  font-family: var(--main-font) !important;
+  color: var(--font-color);
+}
+nav, footer {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+nav a {
+  color: var(--font-color) !important;
+}
+.navbar .nav-link {
+  position: relative;
+  display: inline-block; 
+  color: var(--font-color); 
+}
+.navbar .nav-link::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: var(--font-color);
+  transition: width 0.3s ease;
+}
+.navbar .nav-link:hover::after {
+  width: 100%;
+}
+header {
+  background-image: url(assets/IMG_4.png);
+  min-height: 100vh;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.header-icon {
+  width: 2rem;
+  height: 2rem;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.header-content h1 span::after {
+  content: '';
+  animation-name: typing;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+@keyframes typing {
+  0%{ content: ''}
+  1.6%{ content: 'Y'}
+  3.2%{ content: 'Yo'}
+  4.8%{ content: 'You'}
+  6.4%{ content: 'Yous'}
+  8%{ content: 'Youss'}
+  9.6%{ content: 'Yousse'}
+  11.2%{ content: 'Youssef'}
+  12.8%{ content: 'Youssef '}
+  14.4%{ content: 'Youssef M'}
+  16%{ content: 'Youssef Ma'}
+  17.6%{ content: 'Youssef Man'}
+  19.2%{ content: 'Youssef Mans'}
+  20.8%{ content: 'Youssef Manso'}
+  22.4%{ content: 'Youssef Mansou'}
+  24%{ content: 'Youssef Mansour'}
+  25.6%{ content: 'Youssef Mansou'}
+  27.2%{ content: 'Youssef Manso'}
+  28.8%{ content: 'Youssef Mans'}
+  30.4%{ content: 'Youssef Man'}
+  32%{ content: 'Youssef Ma'}
+  33.6%{ content: 'Youssef M'}
+  35.2%{ content: 'Youssef '}
+  36.8%{ content: 'Youssef'}
+  38.4%{ content: 'Yousse'}
+  40%{ content: 'Youss'}
+  41.6%{ content: 'Yous'}
+  43.2%{ content: 'You'}
+  44.8%{ content: 'Yo'}
+  46.4%{ content: 'Y'}
+  48%{ content: 'Y'}
+  49.6%{ content: ''}
+  51.2%{ content: 'F'}
+  52.8%{ content: 'Fr'}
+  54.4%{ content: 'Fro'}
+  56%{ content: 'Fron'}
+  57.6%{ content: 'Front'}
+  59.2%{ content: 'Fronte'} 
+  60.8%{ content: 'Fronen'}
+  62.4%{ content: 'Fronend'}
+  64%{ content: 'Fronend D'}
+  65.6%{ content: 'Fronend De'}
+  67.2%{ content: 'Fronend Dev'}
+  68.8%{ content: 'Fronend Deve'}
+  70.4%{ content: 'Fronend Devel'}
+  72%{ content: 'Fronend Develo'}
+  73.6%{ content: 'Fronend Develop'}
+  75.2%{ content: 'Fronend Develope'}
+  76.8%{ content: 'Fronend Developer'}
+  78.4%{ content: 'Fronend Developer '}
+  80%{ content: 'Fronend Developer |'}
+  81.6%{ content: 'Fronend Developer | '}
+  83.2%{ content: 'Fronend Developer | R'}
+  84.8%{ content: 'Fronend Developer | Re'}
+  86.4%{ content: 'Fronend Developer | Rea'}
+  88%{ content: 'Fronend Developer | Reac'}
+  89.6%{ content: 'Fronend Developer | React'}
+  91.2%{ content: 'Fronend Developer | React.'}
+  92.8%{ content: 'Fronend Developer | React.j'}
+  94.4%{ content: 'Fronend Developer | React.js'}
+  100%{ content: 'Fronend Developer | React.js'}
+}
+.about {
+  background-color: #f5f5f5;
+}
+.skills {
+  background-color: #f5f5f5;
+}
+.portfolio {
+  background-color: #f5f5f5;
+}
+.section-title h2 {
+  color: rgba(222, 227, 228, 1);
+  font-size: 100px;
+}
+.section-title h3::after {
+  content: '';
+  position: absolute;
+  width: 40%;
+  height: 3px;
+  top: 100%;
+  left: 30%;
+  background-color: var(--main-color);
+}
+.photo img {
+  background-color: var(--border-color);
+}
+.about .span {
+  font-family: var(--second-font) !important;
+  font-weight: 800 !important;
+  font-size: large;
+}
+.download-btn {
+  background-color: var(--main-color) !important;
+  color: white !important;
+  font-weight: 800 !important;
+}
+.download-btn:hover {
+  background-color: #1fb286 !important;
+}
+.contact-btn {
+  border-color: var(--main-color) !important;
+  color: black !important;
+  font-weight: 800 !important;
+}
+.contact-btn:hover {
+  background-color: var(--main-color) !important;
+  color: white !important;
+}
+
+@media (max-width: 1200px) {
+  .about-layout {
+    flex-direction: column; 
+    align-items: center; 
+  }
+  .about-layout .photo {
+    width: 70%;
+    margin-bottom: 30px;
+  }
+  .about-layout .details {
+    width: 100%;
+  }
+}
+.skill-icon {
+  width: 4rem;
+  height: 4rem;
+  box-shadow: 0 0 0 6px var(--main-color);
+  transition: box-shadow .5s, background-color .5s;
+}
+.skill-icon:hover {
+  color: #fff;
+  box-shadow: 0 0 0 10px rgba(172, 198, 225, 0.6);
+  background-color: var(--main-color);
+}
+.portfolio img {
+  transition: transform 1s;
+}
+.portfolio img:hover {
+  transform: scale(1.3);
+}
+.link-icon {
+  width: 2.5rem;
+  height: 2.5rem;
+  box-shadow: 0 0 0 2.5px #0078ff;
+}
+.website-link {
+  color: var(--main-color) !important;
+}
+.website-link:hover {
+  color: #1fb286 !important;
+}
+.contact-icon {
+  width: 4rem;
+  height: 4rem;
+  background-color: #eee;
+  color: #1c1c1c;
+  font-size: 1.5rem;
+  transition: background-color .4s , color .4s;
+}
+.contact-icon:hover {
+  background-color: #1c1c1c;
+  color: #eee;
+}
+.contact input {
+  width: 42%; 
+  background-color: #eee;
+  text-align: start;
+}
+.contact input:hover {
+  border: transparent ;
+  cursor: auto;
+}
+.contact .subject {
+  width: calc(50% + 16px ) ;
+}
+.contact textarea {
+  width: calc(50% + 16px ) ;
+  background-color: #eee;
+  text-align: start;
+}
+.contact button {
+  background-color: #1c1c1c;
+  border: 1px solid #1c1c1c !important;
+  color: #eee;
+  font-weight: 800;
+  transition: background-color .4s , color .4s;
+}
+.contact button:hover {
+  background-color: #fff;
+  color: #1c1c1c;
+}
+.position-relative i {
+  right: 10px;
+  font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+  .section-title h2 {
+    font-size: 70px;
+  }
+  .section-title h3 {
+    font-size: 20px !important;
+  }
+}
+@media (max-width: 576px) {
+  .section-title h2 {
+    font-size: 50px;
+  }
+}
