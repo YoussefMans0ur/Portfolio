@@ -15,9 +15,6 @@ body {
   font-family: var(--main-font) !important;
   color: var(--font-color);
 }
-nav, footer {
-  background-color: rgba(0, 0, 0, 0.9);
-}
 nav a {
   color: var(--font-color) !important;
 }
@@ -90,35 +87,35 @@ header {
   46.4%{ content: 'Y'}
   48%{ content: 'Y'}
   49.6%{ content: ''}
-  51.2%{ content: 'F'}
-  52.8%{ content: 'Fr'}
-  54.4%{ content: 'Fro'}
-  56%{ content: 'Fron'}
-  57.6%{ content: 'Front'}
-  59.2%{ content: 'Fronte'} 
-  60.8%{ content: 'Fronen'}
-  62.4%{ content: 'Fronend'}
-  64%{ content: 'Fronend D'}
-  65.6%{ content: 'Fronend De'}
-  67.2%{ content: 'Fronend Dev'}
-  68.8%{ content: 'Fronend Deve'}
-  70.4%{ content: 'Fronend Devel'}
-  72%{ content: 'Fronend Develo'}
-  73.6%{ content: 'Fronend Develop'}
-  75.2%{ content: 'Fronend Develope'}
-  76.8%{ content: 'Fronend Developer'}
-  78.4%{ content: 'Fronend Developer '}
-  80%{ content: 'Fronend Developer |'}
-  81.6%{ content: 'Fronend Developer | '}
-  83.2%{ content: 'Fronend Developer | R'}
-  84.8%{ content: 'Fronend Developer | Re'}
-  86.4%{ content: 'Fronend Developer | Rea'}
-  88%{ content: 'Fronend Developer | Reac'}
-  89.6%{ content: 'Fronend Developer | React'}
-  91.2%{ content: 'Fronend Developer | React.'}
-  92.8%{ content: 'Fronend Developer | React.j'}
-  94.4%{ content: 'Fronend Developer | React.js'}
-  100%{ content: 'Fronend Developer | React.js'}
+  51.2%{ content: 'a F'}
+  52.8%{ content: 'a Fr'}
+  54.4%{ content: 'a Fro'}
+  56%{ content: 'a Fron'}
+  57.6%{ content: 'a Front'}
+  59.2%{ content: 'a Fronte'} 
+  60.8%{ content: 'a Fronten'}
+  62.4%{ content: 'a Frontend'}
+  64%{ content: 'a Frontend D'}
+  65.6%{ content: 'a Frontend De'}
+  67.2%{ content: 'a Frontend Dev'}
+  68.8%{ content: 'a Frontend Deve'}
+  70.4%{ content: 'a Frontend Devel'}
+  72%{ content: 'a Frontend Develo'}
+  73.6%{ content: 'a Frontend Develop'}
+  75.2%{ content: 'a Frontend Develope'}
+  76.8%{ content: 'a Frontend Developer'}
+  78.4%{ content: 'a Frontend Developer '}
+  80%{ content: 'a Frontend Developer |'}
+  81.6%{ content: 'a Frontend Developer | '}
+  83.2%{ content: 'a Frontend Developer | R'}
+  84.8%{ content: 'a Frontend Developer | Re'}
+  86.4%{ content: 'a Frontend Developer | Rea'}
+  88%{ content: 'a Frontend Developer | Reac'}
+  89.6%{ content: 'a Frontend Developer | React'}
+  91.2%{ content: 'a Frontend Developer | React.'}
+  92.8%{ content: 'a Frontend Developer | React.j'}
+  94.4%{ content: 'a Frontend Developer | React.js'}
+  100%{ content: 'a Frontend Developer | React.js'}
 }
 .about {
   background-color: #f5f5f5;

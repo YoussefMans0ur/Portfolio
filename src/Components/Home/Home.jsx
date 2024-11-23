@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-export default function Header() {
+export default function Home() {
   return (<>
     <header className="d-flex flex-column align-items-center justify-content-center">
         <div className="w-100 h-100 z-1 position-absolute bg-black bg-opacity-50"></div>

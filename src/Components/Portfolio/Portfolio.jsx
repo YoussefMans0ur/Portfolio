@@ -1,5 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+import CineFlixImg from '../../assets/cineflix.png';
+import YummyImg from '../../assets/yummy.png';
+import ProfessionalPortfolioImg from '../../assets/professional-portfolio.png';
+import DevfolioImg from '../../assets/devfolio.png';
 
 export default function Portfolio() {
   return (<>
@@ -13,7 +17,7 @@ export default function Portfolio() {
                 <div className="col-md-4">
                     <div className="bg-white shadow">
                         <div className="overflow-hidden" style={{cursor: "pointer"}}>
-                            <Link to={'https://youssefmans0ur.github.io/CineflixReact'} target='_blank' className='text-decoration-none'><img className="w-100" src="/cineflix.png" alt="" /></Link>
+                            <Link to={'https://youssefmans0ur.github.io/CineflixReact'} target='_blank' className='text-decoration-none'><img className="w-100" src={CineFlixImg} alt="" /></Link>
                         </div>
                         <div className="p-3 pb-1 d-flex align-items-center m-0"> 
                             <div className=''>
@@ -27,7 +31,7 @@ export default function Portfolio() {
                 <div className="col-md-4">
                     <div className="bg-white shadow">
                         <div className="overflow-hidden" style={{cursor: "pointer"}}>
-                            <Link to={'https://youssefmans0ur.github.io/Yummy'} target='_blank' className='text-decoration-none'><img className="w-100" src="/yummy.png" alt="" /></Link>
+                            <Link to={'https://youssefmans0ur.github.io/Yummy'} target='_blank' className='text-decoration-none'><img className="w-100" src={YummyImg} alt="" /></Link>
                         </div>
                         <div className="p-3 pb-1 d-flex align-items-center m-0"> 
                             <div className=''>
@@ -41,7 +45,7 @@ export default function Portfolio() {
                 <div className="col-md-4">
                     <div className="bg-white shadow">
                         <div className="overflow-hidden" style={{cursor: "pointer"}}>
-                            <Link to={'https://youssefmans0ur.github.io/Professional-Portfolio'} target='_blank' className='text-decoration-none'><img className="w-100" src="/professional-portfolio.png" alt="" /></Link>
+                            <Link to={'https://youssefmans0ur.github.io/Professional-Portfolio'} target='_blank' className='text-decoration-none'><img className="w-100" src={ProfessionalPortfolioImg} alt="" /></Link>
                         </div>
                         <div className="p-3 pb-1 d-flex align-items-center m-0"> 
                             <div className=''>
@@ -55,7 +59,7 @@ export default function Portfolio() {
                 <div className="col-md-4">
                     <div className="bg-white shadow">
                         <div className="overflow-hidden" style={{cursor: "pointer"}}>
-                            <Link to={'https://youssefmans0ur.github.io/Devfolio'} target='_blank' className='text-decoration-none'><img className="w-100" src="/devfolio.png" alt="" /></Link>
+                            <Link to={'https://youssefmans0ur.github.io/Devfolio'} target='_blank' className='text-decoration-none'><img className="w-100" src={DevfolioImg} alt="" /></Link>
                         </div>
                         <div className="p-3 pb-1 d-flex align-items-center m-0"> 
                             <div className=''>

@@ -1,29 +1,29 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom'
 export default function Navbar() {
   return (<>
-    <nav className="navbar navbar-expand-lg fixed-top">
+    <nav className="navbar navbar-expand-lg fixed-top bg-black">
         <div className="container">
-          <a className="navbar-brand fw-bolder px-3" href="">Youssef Mansour</a>
+          <Link className="navbar-brand fw-bolder px-3" to={'/'}>Youssef Mansour</Link>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav navbar-bar ms-auto">
               <li className="nav-item px-md-3">
-                <a className="nav-link active" aria-current="page" href="">Home</a>
+                <Link className="nav-link active" aria-current="page" to={'/'}>Home</Link>
               </li>
               <li className="nav-item px-md-3">
-                <a className="nav-link" href="#about">About</a>
+                <Link className="nav-link" to={'/about'}>About</Link>
               </li>
               <li className="nav-item px-md-3">
-                <a className="nav-link" href="#skills">Skills</a>
+                <Link className="nav-link" to={'/skills'}>Skills</Link>
               </li>
               <li className="nav-item px-md-3">
-                <a className="nav-link" href="#portfolio">Works</a>
+                <Link className="nav-link" to={'/works'}>Works</Link>
               </li>
               <li className="nav-item px-md-3">
-                <a className="nav-link" href="#contact">Contact</a>
+                <Link className="nav-link" to={'/contact'}>Contact</Link>
               </li>
             </ul>
           </div>

@@ -1,4 +1,5 @@
 import React from 'react';
+import YoussefPhoto from '../../assets/Mans.png';
 export default function About() {
   return (<>
     <section id="about" className="about py-5">
@@ -13,13 +14,13 @@ export default function About() {
                         <div className="col-md-6 pb-4 ps-md-5">
                             <div className="about-layout d-flex p-2">
                                 <div className="photo col-md-4">
-                                    <img className="w-100 pt-2 rounded-3" src="/ManS5.png" alt="Youssef photo" />
+                                    <img className="w-100 pt-2 rounded-3" src={YoussefPhoto} alt="Youssef photo" />
                                 </div>
                                 <div className="details col-md-7 pt-md-3 offset-1">
-                                    <p><span>Name: </span>Youssef Mansour</p>
-                                    <p><span>Profile: </span>Frontend Developer</p>
-                                    <p><span>Email: </span>youssef.mansour.swe@gmail.com</p>
-                                    <p><span>Phone: </span>(+20) 0101612972</p>
+                                    <p><span className='fw-bold'>Name: </span>Youssef Mansour</p>
+                                    <p><span className='fw-bold'>Profile: </span>Frontend Developer</p>
+                                    <p><span className='fw-bold'>Email: </span>youssef.mansour.swe@gmail.com</p>
+                                    <p><span className='fw-bold'>Phone: </span>(+20) 0101612972</p>
                                 </div>
                             </div>
                         </div>
