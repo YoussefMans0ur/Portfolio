@@ -1,19 +1,19 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import CineFlixImg from '../../assets/cineflix.png';
-import YummyImg from '../../assets/yummy.png';
-import ProfessionalPortfolioImg from '../../assets/professional-portfolio.png';
-import DevfolioImg from '../../assets/devfolio.png';
+import CineFlixImg from '../../assets/cineflix.webp';
+import YummyImg from '../../assets/yummy.webp';
+import ProfessionalPortfolioImg from '../../assets/professional-portfolio.webp';
+import DevfolioImg from '../../assets/devfolio.webp';
 
 export default function Portfolio() {
   return (<>
     <section id='portfolio' className='portfolio py-5'>
-        <div className="container">
+        <div className="container py-5">
             <div className='section-title text-center col-md-12 d-flex position-relative justify-content-center mt-4 mb-5'>    
                 <h2 className='m-0'>PORTFOLIO</h2>
                 <h3 className='position-absolute top-50 translate-middle-y fs-2 fw-bold'>My Work</h3>
             </div>
-            <div className="row m-0 g-5 py-5">
+            <div className="row m-0 g-5 pb-4">
                 <div className="col-md-4">
                     <div className="bg-white shadow">
                         <div className="overflow-hidden" style={{cursor: "pointer"}}>

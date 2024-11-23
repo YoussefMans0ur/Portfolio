@@ -3,7 +3,7 @@ import React from 'react'
 export default function Skills() {
   return (<>
     <section id='skills' className='skills py-5'>
-        <div className="container">
+        <div className="container py-5">
             <div className='section-title text-center col-md-12 d-flex position-relative justify-content-center mt-4 mb-5'>    
                     <h2 className='m-0'>SKILLS</h2>
                     <h3 className='position-absolute top-50 translate-middle-y fs-2 fw-bold'>Technical</h3>

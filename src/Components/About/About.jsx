@@ -1,10 +1,9 @@
 import React from 'react';
-import YoussefPhoto from '../../assets/Mans.png';
-import { Link } from 'react-router-dom';
+import YoussefPhoto from '../../assets/Mans.webp';
 export default function About() {
   return (<>
     <section id="about" className="about py-5">
-        <div className="container">
+        <div className="container py-5">
             <div className="row">
                 <div className='section-title text-center col-md-12 d-flex position-relative justify-content-center mt-4 mb-5'>    
                     <h2 className='m-0'>ABOUT ME</h2>

@@ -55,13 +55,13 @@ export default function Contact() {
     };
   return (<>
     <section id='contact' className='contact py-5'>
-        <div className="container">
+        <div className="container py-5">
             <div className='section-title text-center col-md-12 d-flex position-relative justify-content-center mt-4 mb-5'>    
                 <h2 className='m-0'>CONTACT</h2>
                 <h3 className='position-absolute top-50 translate-middle-y fs-2 fw-bold'>Get in Touch</h3>
             </div>
         </div>
-        <div className="row m-0 gy-4 py-5 justify-content-center">
+        <div className="row m-0 gy-4 pb-5 justify-content-center">
             <div className="col-md-3">
                 <div className='d-flex align-items-center text-center flex-column'>
                     <div className="contact-icon d-flex align-items-center justify-content-center rounded-5">
