@@ -11,11 +11,6 @@ import { Outlet } from 'react-router-dom'
 export default function Layout() {
   return (<>
     <Navbar/>
-    {/* <Home/>
-    <About/>
-    <Skills/>
-    <Portfolio/>
-    <Contact/> */}
     <Outlet></Outlet>
     <Footer/>
   </>)

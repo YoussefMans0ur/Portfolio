@@ -1,5 +1,6 @@
 import React from 'react';
 import YoussefPhoto from '../../assets/Mans.png';
+import { Link } from 'react-router-dom';
 export default function About() {
   return (<>
     <section id="about" className="about py-5">
@@ -14,7 +15,7 @@ export default function About() {
                         <div className="col-md-6 pb-4 ps-md-5">
                             <div className="about-layout d-flex p-2">
                                 <div className="photo col-md-4">
-                                    <img className="w-100 pt-2 rounded-3" src={YoussefPhoto} alt="Youssef photo" />
+                                    <img className="w-100 pt-2 rounded-3" loading="lazy" src={YoussefPhoto} alt="Youssef photo"/>
                                 </div>
                                 <div className="details col-md-7 pt-md-3 offset-1">
                                     <p><span className='fw-bold'>Name: </span>Youssef Mansour</p>
@@ -30,7 +31,7 @@ export default function About() {
                             <p className="py-3">I am <span className="span fw-bolder text-muted">Youssef Mohamed Mansour</span>, a passionate Software Engineer with a degree in Computer Science from the Faculty of Computer and Information Sciences, Ain Shams University, graduating with a GPA of 3.0 (Very Good). I specialize in frontend web development with a strong focus on React. I am dedicated to crafting responsive and efficient web applications, combining technical expertise with creativity to deliver user-friendly solutions. With the ability to work both independently and collaboratively, I am eager to contribute to diverse and impactful projects.</p>
                         </div>
                         <div className="pt-3 text-center">
-                            <a className='me-2' href="/Youssef_Mohamed_Mansour_CV.pdf" download="Youssef_Mansour_CV.pdf">
+                            <a className='me-2' href="/Youssef_Mohamed_Mansour_CV.pdf" download="Youssef_Mohamed_Mansour_CV.pdf">
                                 <button className="download-btn btn px-4 py-2 rounded-2 shadow">Download C.V</button>
                             </a>
                             <a href="mailto:youssef.mansour.swe@gmail.com?subject=Contacting You&body=Hi Youssef,">

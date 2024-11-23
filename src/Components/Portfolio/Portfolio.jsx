@@ -17,7 +17,7 @@ export default function Portfolio() {
                 <div className="col-md-4">
                     <div className="bg-white shadow">
                         <div className="overflow-hidden" style={{cursor: "pointer"}}>
-                            <Link to={'https://youssefmans0ur.github.io/CineflixReact'} target='_blank' className='text-decoration-none'><img className="w-100" src={CineFlixImg} alt="" /></Link>
+                            <Link to={'https://youssefmans0ur.github.io/CineflixReact'} target='_blank' className='text-decoration-none'><img className="w-100" loading="lazy" src={CineFlixImg} alt="" /></Link>
                         </div>
                         <div className="p-3 pb-1 d-flex align-items-center m-0"> 
                             <div className=''>
@@ -31,7 +31,7 @@ export default function Portfolio() {
                 <div className="col-md-4">
                     <div className="bg-white shadow">
                         <div className="overflow-hidden" style={{cursor: "pointer"}}>
-                            <Link to={'https://youssefmans0ur.github.io/Yummy'} target='_blank' className='text-decoration-none'><img className="w-100" src={YummyImg} alt="" /></Link>
+                            <Link to={'https://youssefmans0ur.github.io/Yummy'} target='_blank' className='text-decoration-none'><img className="w-100" loading="lazy" src={YummyImg} alt="" /></Link>
                         </div>
                         <div className="p-3 pb-1 d-flex align-items-center m-0"> 
                             <div className=''>
@@ -45,7 +45,7 @@ export default function Portfolio() {
                 <div className="col-md-4">
                     <div className="bg-white shadow">
                         <div className="overflow-hidden" style={{cursor: "pointer"}}>
-                            <Link to={'https://youssefmans0ur.github.io/Professional-Portfolio'} target='_blank' className='text-decoration-none'><img className="w-100" src={ProfessionalPortfolioImg} alt="" /></Link>
+                            <Link to={'https://youssefmans0ur.github.io/Professional-Portfolio'} target='_blank' className='text-decoration-none'><img className="w-100" loading="lazy" src={ProfessionalPortfolioImg} alt="" /></Link>
                         </div>
                         <div className="p-3 pb-1 d-flex align-items-center m-0"> 
                             <div className=''>
@@ -59,7 +59,7 @@ export default function Portfolio() {
                 <div className="col-md-4">
                     <div className="bg-white shadow">
                         <div className="overflow-hidden" style={{cursor: "pointer"}}>
-                            <Link to={'https://youssefmans0ur.github.io/Devfolio'} target='_blank' className='text-decoration-none'><img className="w-100" src={DevfolioImg} alt="" /></Link>
+                            <Link to={'https://youssefmans0ur.github.io/Devfolio'} target='_blank' className='text-decoration-none'><img className="w-100" loading="lazy" src={DevfolioImg} alt="" /></Link>
                         </div>
                         <div className="p-3 pb-1 d-flex align-items-center m-0"> 
                             <div className=''>
